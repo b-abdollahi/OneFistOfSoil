@@ -2798,7 +2798,7 @@
 	}
 
 	#header {
-		background: #826b40;
+		background: #444;
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -2819,7 +2819,6 @@
 		padding: 0;
 		position: absolute;
 		top: 0;
-		color: #dadada;
 	}
 
 	#header h1 a {
@@ -3191,7 +3190,7 @@
 /* Footer */
 
 	#footer {
-		background: #e6d8b8;
+		background: #f0f0f0;
 		padding: 4em 0 6em 0;
 		text-align: center;
 	}
