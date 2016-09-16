@@ -2798,7 +2798,7 @@
 	}
 
 	#header {
-		background: #444;
+		background: #826b40;
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -2810,22 +2810,23 @@
 		z-index: 10000;
 	}
 
-		#header h1 {
-			color: inherit;
-			height: inherit;
-			left: 1.25em;
-			line-height: inherit;
-			margin: 0;
-			padding: 0;
-			position: absolute;
-			top: 0;
-		}
+	#header h1 {
+		color: inherit;
+		height: inherit;
+		left: 1.25em;
+		line-height: inherit;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top: 0;
+		color: #dadada;
+	}
 
-			#header h1 a {
-				color: #fff;
-				font-weight: 400;
-				border: 0;
-			}
+	#header h1 a {
+		color: #fff;
+		font-weight: 400;
+		border: 0;
+	}
 
 		#header nav {
 			height: inherit;
@@ -3091,6 +3092,73 @@
 				color: #666 !important;
 			}
 
+
+		/* Banner2 */
+
+		#banner2 {
+			background-attachment: scroll,							fixed;
+			background-color: #666;
+			background-image: url("images/overlay.png"), url("../../images/feet.jpg");
+			background-position: top left,						center center;
+			background-repeat: repeat,							no-repeat;
+			background-size: auto,							cover;
+			color: #fff;
+			padding: 12em 0 20em 0;
+			text-align: center;
+		}
+
+		#banner2 :last-child {
+			margin-bottom: 0;
+		}
+
+		#banner2 h2, #banner2 h3, #banner2 h4, #banner2 h5, #banner2 h6 {
+			color: #fff;
+		}
+
+		#banner2 h2 {
+			font-size: 3.5em;
+			line-height: 1em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+		}
+
+		#banner2 p {
+			font-size: 1.25em;
+			margin-bottom: 1.75em;
+		}
+
+		#banner2 input[type="submit"],
+		#banner2 input[type="reset"],
+		#banner2 input[type="button"],
+		#banner2 .button {
+			background-color: transparent;
+			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
+			color: #fff;
+			min-width: 12em;
+		}
+
+		#banner2 input[type="submit"]:hover,
+		#banner2 input[type="reset"]:hover,
+		#banner2 input[type="button"]:hover,
+		#banner2 .button:hover {
+			background-color: rgba(255, 255, 255, 0.1);
+		}
+
+		#banner2 input[type="submit"]:active,
+		#banner2 input[type="reset"]:active,
+		#banner2 input[type="button"]:active,
+		#banner2 .button:active {
+			background-color: rgba(255, 255, 255, 0.2);
+		}
+
+		#banner2 input[type="submit"].special,
+		#banner2 input[type="reset"].special,
+		#banner2 input[type="button"].special,
+		#banner2 .button.special {
+			background: #fff;
+			color: #666 !important;
+		}
+
 /* Main */
 
 	#main {
@@ -3123,7 +3191,7 @@
 /* Footer */
 
 	#footer {
-		background: #f0f0f0;
+		background: #e6d8b8;
 		padding: 4em 0 6em 0;
 		text-align: center;
 	}
