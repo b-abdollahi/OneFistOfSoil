@@ -3316,6 +3316,10 @@
 				padding: 10em 0 18em 0;
 			}
 
+		#banner2 {
+			padding: 10em 0 18em 0;
+		}
+
 	}
 
 /* Normal */
@@ -3341,6 +3345,14 @@
 			}
 
 				#banner h2 {
+					font-size: 3.5em;
+				}
+
+			#banner2 {
+				background-attachment: scroll;
+			}
+
+				#banner2 h2 {
 					font-size: 3.5em;
 				}
 
@@ -3812,6 +3824,10 @@
 			#banner {
 				padding: 5em 1em 4em 1em;
 			}
+
+		#banner2 {
+			padding: 5em 1em 4em 1em;
+		}
 
 		/* Main */
 
